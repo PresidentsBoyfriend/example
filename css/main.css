@@ -1,0 +1,470 @@
+
+
+header {
+    height: 889px;
+    position: relative;
+    
+}
+
+.back {
+    background: url(../assets/img/mountains_back.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.someInfo {
+    position: absolute;
+    padding: 85px 0 0 200px;
+}
+
+.logo {
+    font-family: 'Titillium Web', sans-serif;
+    width: 157px;
+    height: 22px;
+    color: #858688;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.06px;
+}
+
+
+
+.logo span{
+    font-family: 'Titillium Web', sans-serif;
+    width: 157px;
+    height: 22px;
+    color: #858688;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #5b4295;
+    letter-spacing: 0.06px;
+}
+
+.language a {
+    text-decoration: none;
+    width: 236px;
+    height: 14px;
+    color: #959595;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 56px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+}
+
+.language a:hover {
+    color: #6e95eb;
+    border-bottom: #6e95eb 1px solid;
+}
+
+.language .chooseEng {
+    font-family: 'Titillium Web', Bold;
+    font-weight: 700;
+    letter-spacing: 0.14px;
+}
+
+.formToMenu {
+    position: absolute;
+    right: 0;
+    padding: 80px 200px 0 0;
+}
+
+.menu {
+    position: relative;
+    text-align: center;
+}
+
+.menu .child nav a {
+    padding-left: 6px;
+}
+
+
+
+.menu .child nav a:last-child {
+    padding-right: 30px;
+}
+
+.m a {
+    height: 16px;
+    color: #454545;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 56px;
+    text-decoration: none;
+    letter-spacing: 0.16px;
+}
+
+.m a:hover {
+    color: #6e95eb;
+}
+
+#log {
+    font-family: 'Titillium Web', Bold;
+    font-weight: 700;
+    letter-spacing: 0.16px;
+    padding-right: 4px;
+    padding-left: 30px;
+}
+
+#log:hover {
+    padding-left: 26px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.child {
+    display: inline-block;
+}
+
+.btn-sign {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    box-shadow: 0 6px 12px 0 rgba(0,40,120,.35);
+    transition: .5s;
+    cursor: pointer;
+    color: #ffffff;
+    width: 94px;
+    height: 40px;
+    font-weight: 700;
+    letter-spacing: 0.16px;
+    font-family: 'Titillium Web', Bold;
+}
+
+.btn-sign:hover {
+    box-shadow: 0 0 0 0 rgba(0,40,120,0);
+    background-position: 0 0;
+}
+
+.blockText {
+    position: absolute;
+    top: 322px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
+
+.textSecure {
+    width: 756px;
+    opacity: 0.84;
+    color: #454545;
+    font-family: 'Titillium Web', Bold;
+    font-size: 60px;
+    padding: 0;
+    font-weight: 600;
+    margin: 0;
+    line-height: 60px;
+}
+
+.textBased {
+    text-align: center;
+    width: 756px;
+    height: 101px;
+    opacity: 0.84;
+    color: #464646;
+    font-family: "Titillium Web";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 56px;
+}
+
+.textBased .textSome {
+    color: #fc2028;
+    font-family: "Titillium Web";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 56px;
+}
+
+.blockBtn {
+    bottom: 331px;
+    position: absolute;
+    left: 45%;
+    margin-right: -45%;
+    transform: translate(-45%);
+}
+
+.mount {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.btn-crt {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+    transition: .5s;
+    cursor: pointer;
+    width: 246px;
+    height: 56px;
+    text-align: center;
+}
+
+#textCreate {
+    width: 118px;
+    height: 14px;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.18px;
+}
+
+.btn-crt:hover, .btn-item-apple:hover, .btn-item-google:hover {
+    box-shadow: 0 0 0 0 rgba(0,40,120,0);
+    background-position: 0 0;
+}
+
+.threeButtons {
+    position: relative;
+}
+
+.btn-item-apple i {
+    width: 18px;
+    height: 21px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.22px;
+}
+
+.btn-item-apple {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    box-shadow: 0 6px 12px 0 rgba(0,40,120,.35);
+    transition: .5s;
+    cursor: pointer;
+    color: #ffffff;
+    width: 46px;
+    height: 46px;
+    letter-spacing: 0.16px;
+    font-family: 'Titillium Web', Bold;
+    top: 50%;
+    margin-bottom: -50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(0, -50%);
+    margin: 0 256px 0;
+}
+
+.btn-item-google i {
+    width: 46px;
+    height: 46px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.22px;
+}
+
+.btn-item-google {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    box-shadow: 0 6px 12px 0 rgba(0,40,120,.35);
+    transition: .5s;
+    cursor: pointer;
+    color: #ffffff;
+    width: 46px;
+    height: 46px;
+    letter-spacing: 0.16px;
+    font-family: 'Titillium Web', Bold;
+    top: 50%;
+    margin-bottom: -50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(0, -50%);
+    margin: 0 312px 0;
+}
+
+.btn-item p {
+    width: 20px;
+    height: 22px;
+}
+
+.fab {
+    width: 18px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Font Awesome";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.22px;
+}
+
+.mid {
+    height: 600px;
+}
+
+.cld {
+    margin: 0 25px;
+    width: 33.33%;
+}
+
+.mid img {
+    margin: 0;
+    float: left;
+    margin-left: -8px;
+    padding-right: 5px;
+}
+
+.blockTable {
+    display: inline-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0px 7em;
+}
+
+.blockTable h3 {
+    margin: 0;
+    color: #959393;
+    font-family: 'Titillium Web', Bold;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    line-height: 38px;
+    padding-top: 2px;
+}
+
+.blockTable p {
+    margin: 0;
+    color: #959393;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    line-height: 22px;
+}
+
+.blockTable article {
+    height: 78px;
+    color: #959393;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.14px;
+}
+
+.textBlockImg {
+    padding-bottom: 34px;
+}
+
+.physicalSecurity {
+    text-align: -webkit-right;
+    position: absolute;
+    left: 45%;
+    margin-right: -55%;
+    transform: translate(-55%);
+    top: 1213px;
+}
+
+.physicalSecurity h2 {
+    margin: 0 0 12px 0;
+    padding: 0;
+    width: 436px;
+    height: 57px;
+    color: #535353;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+}
+
+.physicalSecurity p {
+    margin: 0;
+    padding: 0;
+    width: 624px;
+    height: 44px;
+    color: #959393;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.24px;
+    text-align: right;
+}
+
+.physicalSecurity p span {
+    color: #f65151;
+}
+
+.learnMore {
+    width: 334px;
+    height: 62px;
+    border-radius: 31px;
+    border: 1px solid #b9b9b9;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1352px;
+    text-align: center;
+    left: 61%;
+    margin-right: -38%;
+    transform: translate(-38%);
+    text-decoration: none;
+    outline: none;
+    background-position: 0 0;
+    background-size: 200% 200%;
+    color: white;
+    transition: .5s;
+}
+
+.learnMore:hover {
+    background-position: 100% 0;
+    background-image: linear-gradient(45deg, #e0fae0 0%, #f8f8f8 50%, #cad2e2 100%);
+    cursor: pointer;
+    
+}
+.learnMoreText {
+    height: 16px;
+    color: #676767;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.16px;
+    padding: 0;
+    margin: 0 auto;
+}
